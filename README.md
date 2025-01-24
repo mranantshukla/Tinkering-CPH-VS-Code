@@ -21,7 +21,7 @@ This VS Code extension enables users to retrieve test cases for LeetCode problem
 
 1. Clone or download this repository:
     ```sh
-    git clone https://github.com/harshit1joshi/Tinkering-open-project.git
+    git clone (https://github.com/mranantshukla/Tiinkering-CPH-VS-Code)
     cd cph-leetcode
     ```
 2. Install dependencies:
@@ -49,8 +49,8 @@ This VS Code extension enables users to retrieve test cases for LeetCode problem
 
 The test cases will be saved in a `testCase` folder in your workspace directory. The folder will contain input/output files:
 
-- **Input Files**: Each `input_X.txt` file contains the input values for the corresponding test case.
-- **Output Files**: Each `output_X.txt` file contains the expected output for the corresponding test case.
+- **Input Files**: Each `input1.txt` file contains the input values for the corresponding test case.
+- **Output Files**: Each `output1.txt` file contains the expected output for the corresponding test case.
 
 ## Commands
 

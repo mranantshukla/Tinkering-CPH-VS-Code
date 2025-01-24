@@ -87,11 +87,11 @@ const fetchTestCase = async (curl, workspacePath, outputChannel) => {
 
         const inputFilePath = path.join(
           testCaseFolderPath,
-          `input_${counter}.txt`
+          `input${counter}.txt`
         );
         const outputFilePath = path.join(
           testCaseFolderPath,
-          `output_${counter}.txt`
+          `output${counter}.txt`
         );
 
         fs.writeFileSync(inputFilePath, input, "utf-8");
@@ -101,7 +101,7 @@ const fetchTestCase = async (curl, workspacePath, outputChannel) => {
         outputArr.push(output);
 
         outputChannel.appendLine(
-          `Test case ${counter} saved as /testCase/input_${counter}.txt and /testCase/output_${counter}.txt`
+          `Test case ${counter} saved as /testCase/input${counter}.txt and /testCase/output${counter}.txt`
         );
         counter++;
       }
